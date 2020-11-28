@@ -1,0 +1,113 @@
+﻿<Window x:Class="deneme.GrilledMeats"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:deneme"
+        mc:Ignorable="d"
+        Title="GrilledMeats" Height="600" Width="550">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="463*"/>
+            <ColumnDefinition Width="81*"/>
+        </Grid.ColumnDefinitions>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="110" Margin="13,16,0,0" VerticalAlignment="Top" Width="161">
+            <Border.Background>
+                <ImageBrush ImageSource="Images/ızgaraköfte.jpg"/>
+            </Border.Background>
+        </Border>
+        <Label Content="Grilled Meatballs" HorizontalAlignment="Left" Height="33" Margin="201,21,0,0" VerticalAlignment="Top" Width="158" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Price : " HorizontalAlignment="Left" Height="32" Margin="201,89,0,0" VerticalAlignment="Top" Width="58" FontSize="14" FontWeight="Bold"/>
+        <Label x:Name="price" Content="30.00 TL" HorizontalAlignment="Left" Height="32" Margin="248,91,0,0" VerticalAlignment="Top" Width="58" FontStyle="Italic"/>
+        <Label Content="Ingredients: with onion and grilled vegitables ..." HorizontalAlignment="Left" Margin="201,43,0,0" VerticalAlignment="Top" Height="43" Width="326" FontStyle="Italic" FontSize="14" Grid.ColumnSpan="2" RenderTransformOrigin="0.501,0.476"/>
+        <TextBox x:Name="count" HorizontalAlignment="Left" Height="25" Margin="408,92,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="1.935,0.436"/>
+        <Button x:Name="Addition" HorizontalAlignment="Left" Margin="447,91,0,0" VerticalAlignment="Top" Width="25" Height="26" Grid.ColumnSpan="2">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/add_basket.png"/>
+            </Button.Background>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="373,91,0,0" VerticalAlignment="Top" Width="25" Height="26" RenderTransformOrigin="0.432,1.423">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/remove_basket.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Veal Chop" HorizontalAlignment="Left" Height="33" Margin="13,131,0,0" VerticalAlignment="Top" Width="161" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Price : " HorizontalAlignment="Left" Height="32" Margin="13,205,0,0" VerticalAlignment="Top" Width="58" FontSize="14" FontWeight="Bold"/>
+        <Label x:Name="price_Copy" Content="52.00 TL" HorizontalAlignment="Left" Height="32" Margin="60,207,0,0" VerticalAlignment="Top" Width="58" FontStyle="Italic"/>
+        <Label Content="Ingredients: with fresh salad...&#xA;" HorizontalAlignment="Left" Margin="13,159,0,0" VerticalAlignment="Top" Height="50" Width="271" FontStyle="Italic" FontSize="14"/>
+        <TextBox x:Name="count_Copy" HorizontalAlignment="Left" Height="25" Margin="220,208,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="1.935,0.436"/>
+        <Button x:Name="Addition_Copy" HorizontalAlignment="Left" Margin="259,209,0,0" VerticalAlignment="Top" Width="25" Height="26">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/add_basket.png"/>
+            </Button.Background>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="185,209,0,0" VerticalAlignment="Top" Width="25" Height="26" RenderTransformOrigin="0.432,1.423">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/remove_basket.png"/>
+            </Button.Background>
+        </Button>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="110" Margin="366,144,0,0" VerticalAlignment="Top" Width="161" Grid.ColumnSpan="2">
+            <Border.Background>
+                <ImageBrush ImageSource="Images/ızgarapirzola.jpg"/>
+            </Border.Background>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="110" Margin="13,258,0,0" VerticalAlignment="Top" Width="161">
+            <Border.Background>
+                <ImageBrush ImageSource="Images/ızgarabonfile.jpg"/>
+            </Border.Background>
+        </Border>
+        <Label Content="Veal Entrecote" HorizontalAlignment="Left" Height="33" Margin="217,265,0,0" VerticalAlignment="Top" Width="117" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Price : " HorizontalAlignment="Left" Height="32" Margin="221,336,0,0" VerticalAlignment="Top" Width="58" FontSize="14" FontWeight="Bold"/>
+        <Label x:Name="price_Copy1" Content="55.00 TL" HorizontalAlignment="Left" Height="32" Margin="268,338,0,0" VerticalAlignment="Top" Width="58" FontStyle="Italic"/>
+        <Label Content="Ingredients: with fresh salad and patatoes..." HorizontalAlignment="Left" Margin="219,298,0,0" VerticalAlignment="Top" Height="33" Width="275" FontStyle="Italic" FontSize="14" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="count_Copy1" HorizontalAlignment="Left" Height="25" Margin="430,339,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="1.935,0.436"/>
+        <Button x:Name="Addition_Copy1" HorizontalAlignment="Left" Margin="5.8,339,0,0" VerticalAlignment="Top" Width="25" Height="26">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/add_basket.png"/>
+            </Button.Background>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="395,338,0,0" VerticalAlignment="Top" Width="25" Height="26" RenderTransformOrigin="0.432,1.423">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/remove_basket.png"/>
+            </Button.Background>
+        </Button>
+        <Button HorizontalAlignment="Left" Height="40" Margin="13,520,0,0" VerticalAlignment="Top" Width="40">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/back button.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="NextButton" HorizontalAlignment="Left" Height="40" Margin="24.8,516,0,0" VerticalAlignment="Top" Width="40" RenderTransformOrigin="0.143,0.882" Grid.Column="1">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform X="28.56"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Background>
+                <ImageBrush ImageSource="Images/next button.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Grilled Chicken" HorizontalAlignment="Left" Height="33" Margin="13,390,0,0" VerticalAlignment="Top" Width="174" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Price : " HorizontalAlignment="Left" Height="32" Margin="13,450,0,0" VerticalAlignment="Top" Width="58" FontSize="14" FontWeight="Bold"/>
+        <Label x:Name="price_Copy2" Content="28.00 TL" HorizontalAlignment="Left" Height="32" Margin="60,452,0,0" VerticalAlignment="Top" Width="58" FontStyle="Italic"/>
+        <Label Content="Ingredients: Chicken breast with fresh salad....&#xA;" HorizontalAlignment="Left" Margin="13,418,0,0" VerticalAlignment="Top" Height="41" Width="293" FontStyle="Italic" FontSize="14"/>
+        <TextBox x:Name="count_Copy2" HorizontalAlignment="Left" Height="25" Margin="220,453,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="1.935,0.436"/>
+        <Button x:Name="Addition_Copy2" HorizontalAlignment="Left" Margin="259,454,0,0" VerticalAlignment="Top" Width="25" Height="26">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/add_basket.png"/>
+            </Button.Background>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="185,454,0,0" VerticalAlignment="Top" Width="25" Height="26" RenderTransformOrigin="0.432,1.423">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/remove_basket.png"/>
+            </Button.Background>
+        </Button>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="110" Margin="366,390,0,0" VerticalAlignment="Top" Width="161" Grid.ColumnSpan="2">
+            <Border.Background>
+                <ImageBrush ImageSource="Images/Tavuk-Izgara.jpg"/>
+            </Border.Background>
+        </Border> 
+    </Grid>
+</Window>
